@@ -45,7 +45,6 @@ azure-servicefabric==5.6.130
 azure-servicemanagement-legacy==0.20.6
 azure-storage==0.34.3
 bleach==1.5.0
-certifi==2017.11.5
 cffi==1.11.2
 chardet==3.0.4
 click==6.7
