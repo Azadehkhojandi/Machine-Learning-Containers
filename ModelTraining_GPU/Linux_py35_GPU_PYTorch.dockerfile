@@ -368,11 +368,8 @@ RUN bash -c 'source /user/miniconda3/bin/activate py35_tfp && python -m ipykerne
 ### Conda folder permissions ###
 # - must do as root, but gives permission so can pip install etc. 
 USER root
-
-RUN chmod -R 777 $CONDA_DIR 
-
-
-
+# az solve this later
+# RUN chmod -R 777 $CONDA_DIR 
 # RUN chmod -R 777 $CONDA_DIR
 
 ### Jupyterhub setup ###
