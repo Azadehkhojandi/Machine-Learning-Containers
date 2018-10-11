@@ -369,11 +369,7 @@ RUN bash -c 'source /user/miniconda3/bin/activate py35_tfp && python -m ipykerne
 # - must do as root, but gives permission so can pip install etc. 
 USER root
 
-ENV NB_USER=wonderwoman
-USER $NB_USER
-
-RUN chmod -R 777 $CONDA_DIR && \
-    chmod -R 777 /home/$NB_USER
+RUN chmod -R 777 $CONDA_DIR 
 
 
 
